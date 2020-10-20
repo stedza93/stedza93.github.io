@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        width: 300px;
+        height: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-rows: 4fr 1fr 1fr;
+        font-size: 14px;
+        box-shadow: 0px 0px 8px #eee;
+      }
+      .wrapper img {
+        width: 100%;
+        height: 100%;
+      }
+      .image-header a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: url(https://i.imgur.com/8a9vuyk.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+      a {
+        text-decoration: none;
+        display: block;
+        color: rgba(0, 0, 0, 0.59);
+        font-weight: bold;
+        box-sizing: border-box;
+        transition: all .4s;
+      }
+      a:hover{
+        opacity: .8;
+      }
+      .headline {
+        padding: 10px;
+      }
+      .description {
+        padding: 10px;
+        width: 120px;
+        font-weight:100;
+        border-radius: 10px;
+        background: rgba(0, 0, 255, 0.775);
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; margin:30px 0">
+      <a href="/160x600.html">160x600</a> ||
+      <a href="/300x250.html">300x250</a> ||
+      <a href="/300x600.html">300x600</a> ||
+      <a href="/320x100.html">320x100</a> ||
+      <a href="/728x90.html">728x90</a> ||
+      <a href="/970x250.html">970x250</a> ||
+      <a href="/970x90.html">970x90</a> ||
+      <a href="/300x600.html">300x600</a> ||
+    </div>
+    <div class="wrapper">
+      <div class="image-header"><a href="#"></a></div>
+      <div>
+        <a href="#" class="headline"
+          >Looking for personal loans at lower interest rates?</a
+        >
+      </div>
+      <div>
+        <a href="#" class="description">Find options</a>
+      </div>
+    </div>
+  </body>
+</html>

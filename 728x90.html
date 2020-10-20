@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        width: 728px;
+        height: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        font-size: 14px;
+        grid-template-rows: 90px;
+        overflow: hidden;
+        box-shadow: 0px 0px 8px #eee;
+      }
+      .wrapper img {
+        width: 100%;
+        height: 100%;
+      }
+      .image-header a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: url(https://i.imgur.com/8a9vuyk.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      a {
+        text-decoration: none;
+        display: block;
+        color: rgba(0, 0, 0, 0.59);
+        font-weight: bold;
+        box-sizing: border-box;
+        transition: all 0.4s;
+      }
+      a:hover {
+        opacity: 0.8;
+      }
+      .headline {
+        padding: 0 40px;
+        font-size: 18px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .description {
+        padding: 5px;
+        width: 150px;
+        margin: 0 auto;
+        font-size: 18px;
+        font-weight: 100;
+        border-radius: 4px;
+        background: rgba(0, 0, 255, 0.775);
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; margin:30px 0">
+      <a href="/160x600.html">160x600</a> ||
+      <a href="/300x250.html">300x250</a> ||
+      <a href="/300x600.html">300x600</a> ||
+      <a href="/320x100.html">320x100</a> ||
+      <a href="/728x90.html">728x90</a> ||
+      <a href="/970x250.html">970x250</a> ||
+      <a href="/970x90.html">970x90</a> ||
+      <a href="/300x600.html">300x600</a> ||
+    </div>
+    <div class="wrapper">
+      <div class="image-header"><a href="#"></a></div>
+      <div>
+        <a href="#" class="headline"
+          >Looking for personal loans at lower interest rates?</a
+        >
+      </div>
+      <div>
+        <a href="#" class="description">Find options</a>
+      </div>
+    </div>
+  </body>
+</html>
