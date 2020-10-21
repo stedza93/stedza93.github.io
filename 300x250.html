@@ -10,7 +10,7 @@
         height: 250px;
         font-family: Arial, Helvetica, sans-serif;
         display: grid;
-        grid-template-rows: 4fr 1fr 1fr;
+        grid-template-rows: 3fr 2fr;
         font-size: 14px;
         box-shadow: 0px 0px 8px #eee;
       }
@@ -29,48 +29,51 @@
       a {
         text-decoration: none;
         display: block;
-        color: rgba(0, 0, 0, 0.59);
+        color: #4f4f4f;
         font-weight: bold;
         box-sizing: border-box;
-        transition: all .4s;
+        transition: all 0.4s;
       }
-      a:hover{
-        opacity: .8;
+      a:hover {
+        opacity: 0.8;
+      }
+      .descr-wrapper {
+        display: grid;
+        padding: 10px;
+        grid-template-columns: 3fr 2fr;
       }
       .headline {
-        padding: 10px;
+        align-self: center;
       }
       .description {
-        padding: 10px;
-        width: 120px;
-        font-weight:100;
-        border-radius: 10px;
-        background: rgba(0, 0, 255, 0.775);
-        margin: 0 auto;
+        padding: 8px;
+        align-self: center;
+        height: 30px;
+        font-weight: 100;
+        border-radius: 5px;
+        background: #4688f1;
         color: #fff;
         text-align: center;
       }
     </style>
   </head>
   <body>
-    <div style="display: flex; margin:30px 0">
-      <a href="/160x600.html">160x600</a> ||
-      <a href="/300x250.html">300x250</a> ||
-      <a href="/300x600.html">300x600</a> ||
-      <a href="/320x100.html">320x100</a> ||
-      <a href="/728x90.html">728x90</a> ||
-      <a href="/970x250.html">970x250</a> ||
-      <a href="/970x90.html">970x90</a> ||
-      <a href="/300x600.html">300x600</a> ||
+    <div style="display: flex; margin: 30px 0">
+     <a href="/160x600.html">160x600</a> ||
+        <a href="/300x250.html">300x250</a> ||
+        <a href="/300x600.html">300x600</a> ||
+        <a href="/320x100.html">320x100</a> ||
+        <a href="/728x90.html">728x90</a> ||
+        <a href="/970x250.html">970x250</a> ||
+        <a href="/970x90.html">970x90</a> ||
+        <a href="/320x50.html">320x50</a> ||
     </div>
     <div class="wrapper">
       <div class="image-header"><a href="#"></a></div>
-      <div>
+      <div class="descr-wrapper">
         <a href="#" class="headline"
           >Looking for personal loans at lower interest rates?</a
         >
-      </div>
-      <div>
         <a href="#" class="description">Find options</a>
       </div>
     </div>
